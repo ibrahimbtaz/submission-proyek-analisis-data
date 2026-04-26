@@ -7,7 +7,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Menyiapkan data
-all_data = pd.read_csv("main_data.csv")
+all_data = pd.read_csv("dashboard/main_data.csv")
 
 # Pastikan kolom tanggal bertipe datetime
 datetime_columns = ["order_purchase_timestamp", "order_delivered_customer_date", "order_estimated_delivery_date"]
